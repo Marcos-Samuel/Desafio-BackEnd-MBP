@@ -4,7 +4,7 @@ export enum Bimestre {
   SEGUNDO = 'SEGUNDO',
   TERCEIRO = 'TERCEIRO',
   QUARTO = 'QUARTO',
-}
+};
 
 
 export enum Disciplina {
@@ -12,7 +12,7 @@ export enum Disciplina {
   ARTES = 'Artes',
   GEOGRAFIA = 'Geografia',
   SOCIOLOGIA = 'Sociologia',
-}
+};
 
 
 export type Resultado = {
@@ -22,7 +22,7 @@ export type Resultado = {
   nota: number;
   criadoEm: Date;
   atualizadoEm: Date;
-}
+};
 
 
 

@@ -4,7 +4,7 @@ import { Resultado } from '../types/types';
 
 export const deleteResult = async (req:Request, res: Response) => {
     try {
-        
+
         const { id } = req.params;
 
         if (!id || typeof id !== 'string') {

@@ -6,7 +6,7 @@ interface RegistroRequest {
     bimestre: Bimestre;
     disciplina: Disciplina;
     nota: number;
-}
+};
 
 export const registerResults = async (req: Request, res: Response) => {
 
