@@ -5,7 +5,7 @@ export const knex = Knex({
     version: '7.2',
     connection: {
         host: process.env.DB_HOST,
-        port: parseInt(process.env.DB_POST, 10),
+        port: Number(process.env.DB_POST),
         user: process.env.DB_USER,
         password : process.env.DB_PASS,
         database: process.env.DB_DATABASE
