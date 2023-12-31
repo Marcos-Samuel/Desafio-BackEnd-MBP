@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const listResults_1 = require("../controllers/listResults");
+const registerResults_1 = require("../controllers/registerResults");
+const deleteResult_1 = require("../controllers/deleteResult");
+const routes = (0, express_1.Router)();
+routes.get('/resultados/:bimestre?', listResults_1.ListResults);
+routes.post('/resultados', registerResults_1.registerResults);
+routes.delete('/resultados/:id', deleteResult_1.deleteResult);
+exports.default = routes;
