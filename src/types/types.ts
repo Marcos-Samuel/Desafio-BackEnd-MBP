@@ -21,7 +21,7 @@ export type Resultado = {
   disciplina: Disciplina;
   nota: number;
   criadoEm: Date;
-  atualizadoEm: Date;
+  atualizadoem: Date;
 };
 
 
