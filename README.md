@@ -4,6 +4,19 @@
 <h4 align="center"> 
 	Desafio Back-end MBP
 </h4>
+⚙️ Deploy
+
+- https://git.heroku.com/desafio-mbp.git
+
+<br>
+
+## ⚙️ Rotas
+
+| `GET` | /resultados |
+<br>
+| `POST` | /resultados |
+<br>
+| `DELETE` | /resultado/:id |
 
 <p align="center">
 	<img alt="Status Concluído" src="https://img.shields.io/badge/first_sprint-concluded-green">
